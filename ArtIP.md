@@ -8,6 +8,42 @@
 
 ---
 
+## 风格限定：手绘插画风格
+
+### 必须使用的风格
+
+所有生成的IP形象**必须**采用**手绘插画风格（Hand-drawn Illustration Style）**。
+
+### Prompt 必须包含的风格关键词
+
+生成图片时，prompt 中**必须包含**以下风格词汇（选择2-3个组合使用）：
+
+```
+hand-drawn illustration, watercolor style, colored pencil art, 
+sketch style, traditional art, artistic illustration, 
+soft brush strokes, hand-painted, storybook illustration,
+children's book art style, whimsical illustration, ink and wash
+```
+
+### 风格示例 Prompt
+
+```
+[角色描述], hand-drawn illustration style, watercolor texture, 
+soft brush strokes, warm color palette, artistic hand-painted look,
+storybook illustration aesthetic, visible pencil lines, 
+paper texture background, whimsical and charming, high quality art
+```
+
+### 禁止的风格
+
+| 禁止 | 说明 |
+|------|------|
+| ❌ 3D渲染 | 不要使用 3D render, Pixar style, Blender 等 |
+| ❌ 照片写实 | 不要使用 photorealistic, hyperrealistic 等 |
+| ❌ 纯数字风格 | 不要使用过于光滑、无笔触感的数字绘画 |
+
+---
+
 ## 主题一：奇幻童话角色
 
 ### 主题定位
@@ -116,7 +152,6 @@
 - [ ] 是否体现了反差萌/丑萌/奶凶等复合魅力？
 - [ ] 性格是否鲜明且能通过视觉传达？
 - [ ] 配色是否明亮清晰，避免过于繁杂？
-- [ ] 是否有标志性的视觉符号或招牌动作？
+- [ ] 是否有标志性的视觉符号或鞭策动作？
 - [ ] 表情是否有认同感，能引起情感共鸣？
 - [ ] 是否避免了同质化、无趣的设计？
-
