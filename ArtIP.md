@@ -12,8 +12,8 @@
 
 ### 必须遵守的风格要求
 
-所有生成的IP形象**必须**采用 "Yami Kawaii art" 风格。
-
+所有生成的IP形象**必须**采用 "Yami Kawaii art" 风格生成玩具图片。
+头发的造型的部分需要有毛发质感。衣服衣物需要有各自的布料质感。
 ---
 ### 禁止元素
 生成IP形象时，画面中**绝对不能出现**以下内容：
@@ -24,7 +24,7 @@
 | ❌ HUD元素 | 血条、技能栏、小地图、状态栏等游戏界面 |
 | ❌ 文字内容 | 任何文字、字母、数字、标题、水印、签名等 |
 | ❌ 标识符号 | Logo、品牌标识、版权符号等 |
-
+| ❌ 装饰底座 | Logo、品牌标识、版权符号等 |
 ### 背景要求
 
 | 要求 | 说明 |
@@ -40,7 +40,6 @@
 no text, no UI, no HUD, no watermark, no signature, no letters, 
 no numbers, no logo, solid color background, clean background
 ```
-
 ---
 
 ## 主题一：奇幻童话角色
