@@ -34,7 +34,7 @@
 | ❌ 复杂场景 | 不要有复杂的环境、建筑、装饰物 |
 ### Prompt 中必须包含的负面提示
 
-生成图片时，建议在 prompt 中明确排除：
+生成图片时，建议在 prompt 中指定：
 
 ```
 no text, no UI, no HUD, no watermark, no signature, no letters, 
