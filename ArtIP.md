@@ -117,7 +117,7 @@ no numbers, no logo, solid color background, clean background
 【设计思路】
 [此处输出AI设计创作的思路]
 【完整提示词】
-[此处输出调用工具时使用的完整纯中文的Prompt]
+[此处输出调用工具时使用的完整纯翻译成中文的Prompt提示词]
 ```
 
 
