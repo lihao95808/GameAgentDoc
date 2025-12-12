@@ -18,7 +18,7 @@
 
 ### 性格定位确定规则
 
-**【规则1】用户指定性格关键词时的匹配：**
+根据用户描述的关键词，匹配对应的冲突性格定位：
 
 | 用户关键词 | 匹配的冲突性格定位 |
 |------------|-------------------|
@@ -30,17 +30,7 @@
 | 害羞、社恐、内向 | 社恐软萌 |
 | 生气、暴躁、愤怒 | 暴躁奶包 |
 
-**【规则2】用户未指定性格时，根据角色类型推导：**
-
-| 角色类型 | 推荐的冲突性格定位 |
-|----------|-------------------|
-| 猫科动物 | 高高在上的萌 / 厌世丧萌 |
-| 犬科动物 | 社恐软萌 / 暴躁奶包 |
-| 兔子 | 诡异不安 / 呆萌丑萌 |
-| 狐狸 | 奶凶/坏萌 |
-| 浣熊 | 奶凶/坏萌 |
-| 熊类 | 呆萌/丑萌 / 暴躁奶包 |
-| 其他/未指定 | 奶凶/坏萌（默认） |
+**用户未指定性格时**：根据对需求的理解，自主选择最合适的性格定位
 
 ---
 
@@ -206,21 +196,23 @@
 ### 交付示例
 
 ```
-【性格定位】高高在上的萌 - 傲娇感+萌态
-【设计风格】Yoshitomo Nara 奈良美智风
+【性格定位】呆萌/丑萌 - 清澈+迷糊
+【设计风格】Mark Ryden 超现实梦幻风
 
 【完整提示词】
-Yoshitomo Nara style chibi hedgehog, pouty arrogant look, soft brown and cream colors, 3D CGI render, soft fur texture, white background, high quality
+Mark Ryden style chibi robot, blank innocent stare, vintage pastel colors, 3D CGI render, white background, high quality
 ```
 
-### 更多极简示例
+### 更多极简示例（多样化角色类型）
 
-| 角色 | 性格 | 极简提示词 |
-|------|------|-----------|
-| 狐狸 | 奶凶/坏萌 | `Yami Kawaii style chibi fox, mischievous smirk, pastel pink and black, 3D CGI render, white background` |
-| 小猫 | 厌世丧萌 | `Yoshitomo Nara style chibi cat, bored droopy eyes, muted earth tones, 3D CGI render, white background` |
-| 兔子 | 呆萌 | `Mark Ryden style chibi rabbit, blank innocent stare, vintage pastel colors, 3D CGI render, white background` |
-| 小熊 | 暴躁奶包 | `Chibi style angry bear, puffed cheeks tantrum, bold red and orange, 3D CGI render, white background` |
+| 类型 | 角色 | 性格 | 极简提示词 |
+|------|------|------|-----------|
+| 🐱 动物 | 小猫 | 厌世丧萌 | `Yoshitomo Nara style chibi cat, bored droopy eyes, muted earth tones, 3D CGI render, white background` |
+| 🤖 机器人 | 小机器人 | 呆萌 | `Mark Ryden style chibi robot, blank innocent stare, soft pastel colors, 3D CGI render, white background` |
+| 🧚 精灵 | 森林精灵 | 社恐软萌 | `Studio Ghibli style chibi forest spirit, shy averted gaze, warm earth greens, 3D CGI render, white background` |
+| 🍰 物品 | 蛋糕精灵 | 呆萌 | `Mark Ryden style chibi cake character, dopey adorable look, soft pinks and cream, 3D CGI render, white background` |
+| 🐻 动物 | 小熊 | 暴躁奶包 | `Chibi style angry bear, puffed cheeks tantrum, bold red and orange, 3D CGI render, white background` |
+| 🦊 动物 | 狐狸 | 奶凶/坏萌 | `Yami Kawaii style chibi fox, mischievous smirk, pastel pink and black, 3D CGI render, white background` |
 
 ---
 
