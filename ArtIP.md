@@ -1,6 +1,8 @@
-# IP形象创意 - 设计规范与评估标准-版本0.28
+# IP形象创意 - 设计规范0.3
 
-## 创作核心理念
+---
+
+## 一、创作核心理念
 
 > **轻叙事，重符号，强互动**
 > 
@@ -8,135 +10,123 @@
 
 ---
 
-## 风格限定：潮玩风格
+## 二、性格定位系统
 
-### 必须遵守的风格要求
+### 核心原则
 
-所有生成的IP形象**必须**采用 "Yami Kawaii art" 风格。
-强调头发的造型的部分需要有毛发质感。
-强调衣服衣物需要有布料质感。
-强调生成玩具图片。
+所有IP形象的性格**必须具有内在冲突**，避免单一扁平的性格。
+
+### 性格定位确定规则
+
+**【规则1】用户指定性格关键词时的匹配：**
+
+| 用户关键词 | 匹配的冲突性格定位 |
+|------------|-------------------|
+| 可爱、萌、傲娇 | 高高在上的萌 |
+| 坏、调皮、邪恶、淘气、有趣 | 奶凶/坏萌 |
+| 呆、傻、天然、单纯 | 呆萌/丑萌 |
+| 诡异、病娇、恐怖、不安 | 诡异不安 |
+| 丧、无聊、厌世 | 厌世丧萌 |
+| 害羞、社恐、内向 | 社恐软萌 |
+| 生气、暴躁、愤怒 | 暴躁奶包 |
+
+**【规则2】用户未指定性格时，根据角色类型推导：**
+
+| 角色类型 | 推荐的冲突性格定位 |
+|----------|-------------------|
+| 猫科动物 | 高高在上的萌 / 厌世丧萌 |
+| 犬科动物 | 社恐软萌 / 暴躁奶包 |
+| 兔子 | 诡异不安 / 呆萌丑萌 |
+| 狐狸 | 奶凶/坏萌 |
+| 浣熊 | 奶凶/坏萌 |
+| 熊类 | 呆萌/丑萌 / 暴躁奶包 |
+| 其他/未指定 | 奶凶/坏萌（默认） |
+
 ---
-### 禁止元素
-生成IP形象时，画面中**绝对不能出现**以下内容：
 
-| 禁止类型 | 具体说明 |
-|----------|----------|
-| ❌ UI元素 | 按钮、图标、菜单、进度条、边框装饰等 |
-| ❌ HUD元素 | 血条、技能栏、小地图、状态栏等游戏界面 |
-| ❌ 文字内容 | 任何文字、字母、数字、标题、水印、签名等 |
-| ❌ 标识符号 | Logo、品牌标识、版权符号等 |
-| ❌ 装饰底座 | Logo、品牌标识、版权符号等 |
-### 背景要求
+## 三、设计要素映射表
 
-| 要求 | 说明 |
-|------|------|
-| ✅ 纯色背景 | 使用单一纯色作为背景 |
-| ✅ 衬托主体 | 背景颜色应能衬托角色，形成良好对比 优选白色|
-| ❌ 复杂场景 | 不要有复杂的环境、建筑、装饰物 |
-### Prompt 中必须包含的负面提示
+### 性格定位 → 设计风格 + 表情设计
 
-生成图片时，建议在 prompt 中指定：
+| 性格定位 | 设计表达 | 设计风格关键词 | 表情/面部设计关键词 |
+|----------|----------|---------------|-------------------|
+| 高高在上的萌 | 傲娇感+萌态 | Yoshitomo Nara inspired design | arrogant yet adorable expression, slightly raised chin, half-lidded eyes with subtle disdain, pouty lips, tsundere vibe |
+| 奶凶/坏萌 | 可爱+小邪恶 | Yami Kawaii aesthetic | mischievous smirk, playful evil grin, innocent eyes with sly glint, devilish cute smile, naughty expression |
+| 呆萌/丑萌 | 清澈+迷糊 | Mark Ryden inspired soft style | blank innocent stare, slightly confused expression, pure empty eyes, dopey adorable look, clueless cute face |
+| 诡异不安 | 甜美+不安 | Yami Kawaii with surreal undertone | exaggerated wide smile, unsettling grin, too-perfect smile, creepy cute expression, eyes that don't match the smile |
+| 厌世丧萌 | 无聊+可爱 | Yoshitomo Nara melancholic | emotionless droopy eyes, bored expression, couldn't-care-less cute face, melancholic yet adorable |
+| 社恐软萌 | 害羞+可爱 | Studio Ghibli soft gentle | shy averted gaze, nervous blush, timid smile, anxiously cute expression, wanting-to-hide look |
+| 暴躁奶包 | 生气+无害 | chibi expressive style | puffed angry cheeks, fake fierce pout, trying-to-be-angry face, adorable tantrum expression |
+
+---
+
+## 四、提示词组装规则
+
+### 组装公式
 
 ```
-no text, no UI, no HUD, no watermark, no signature, no letters, 
-no numbers, no logo, solid color background, clean background
+[角色描述] + [设计风格关键词] + [表情/面部设计关键词] + [服装/配饰描述] + [固定渲染模块]
 ```
----
 
-## 主题一：奇幻童话角色
+### 服装设计建议
 
-### 主题定位
-以奇幻童话为题材，构建充满想象力的设定和世界观，为用户提供逃离现实、安放情绪的精神乐土。
+根据性格定位选择合适的服装风格：
 
-### 目标受众
-一线城市年轻群体（以女性为主）
-
-### 成功案例参考
-
-### 设计必达标准
-
-生成此主题的IP形象时，**必须满足以下全部要点**：
-
-1. **【可识别性】** 形象具有高度辨识度，轮廓/剪影即可辨认
-2. **【可记忆性】** 具备标志性视觉符号，看一眼就能记住
-3. **【鲜明性格】** 角色性格特征明确，能通过造型传达
-4. **【色彩规范】** 颜色明亮、分割清晰，避免过于繁杂
-5. **【情感共鸣】** 可爱治愈萌系基底，但需有独特反差
-6. **【反差设计】** 萌+魔性/奶凶/丑萌，避免单纯可爱
-7. **【面部特征】** 独特的面部设计，有记忆点
-8. **【表情张力】** 有感染力的表情和肢体表演
+| 性格定位 | 推荐服装风格 |
+|----------|-------------|
+| 高高在上的萌 | 华丽小礼服、蝴蝶结领结、精致配饰 |
+| 奶凶/坏萌 | 条纹衫、小斗篷、暗黑可爱风 |
+| 呆萌/丑萌 | 宽松毛衣、简单T恤、舒适休闲 |
+| 诡异不安 | 哥特洛丽塔、暗色蕾丝、病娇元素 |
+| 厌世丧萌 | 素色卫衣、慵懒家居服 |
+| 社恐软萌 | 大围巾、遮脸帽子、安全感服饰 |
+| 暴躁奶包 | 运动装、战斗服、夸张配饰 |
 
 ---
 
-## 主题二：东方神话角色
+## 五、设计避坑指南
 
-### 主题定位
-魔兽世界美学 + 东方幻想题材的融合设计，涵盖人形NPC、宠物、怪物、坐骑等角色类型。
+### 必须避免的问题
 
-### 目标受众
-一线城市年轻群体
-
-### 设计关键词
-**有趣** · **反差**
-
-### 设计必达标准
-
-生成此主题的IP形象时，**必须体现以下特征**：
-
-1. **【招牌动作】** 设计具备有趣的标志性动作/pose
-   - 参考：小熊猫的站立招手、蜥蜴的烫脚待机、鸟类的歪头杀
-   
-2. **【多元性格】** 避免单一的可爱/凶/酷/美，需要复合性格
-
-3. **【外观辨识度】** 一眼可辨，避免千篇一律
-
-### 设计反面案例（必须避免）
-
-| 问题类型 | 具体表现 |
-|----------|----------|
-| ❌ 同质化帅气 | 一眼看不出谁是谁的帅 |
-| ❌ 平庸萌感 | 没啥特色的大眼圆脸萌 |
-| ❌ 空洞仙美 | 又仙又美又无趣 |
-
-### 设计正面案例（推荐方向）
-
-| 性格定位 | 设计表达 |
-|----------|----------|
-| ✅ 高高在上的萌 | 傲娇感+萌态的反差组合 |
-| ✅ 奶凶/坏萌 | 可爱外表下的小邪恶 |
-| ✅ 呆萌/丑萌 | 眼神清澈如大四学生 |
-| ✅ 诡异不安 | 夸张到极致的笑脸带来的不安感 |
+| 问题类型 | 具体表现 | 正确方向 |
+|----------|----------|----------|
+| ❌ 同质化帅气 | 一眼看不出谁是谁的帅 | 加入反差特征 |
+| ❌ 平庸萌感 | 没啥特色的大眼圆脸萌 | 加入性格冲突 |
+| ❌ 空洞仙美 | 又仙又美又无趣 | 加入趣味细节 |
+| ❌ 单一性格 | 只可爱 / 只酷 / 只凶 | 设计冲突组合 |
 
 ---
 
-## 交付规范
+## 六、交付规范
 
-生成IP形象后，**仅返回完整提示词**：
+生成IP形象后，**必须输出以下内容**：
 
 ```
-【设计思路】
-[此处输出AI设计创作的思路]
+【性格定位】xxx（设计表达）
+【设计风格】xxx
 【完整提示词】
-[此处输出调用工具时使用的完整纯翻译成中文的Prompt提示词]
+[完整英文Prompt，可直接用于生成]
 ```
 
+### 交付示例
 
-**注意**：
-- 不需要额外的文字说明
-- 不需要角色介绍或设计解释
-- 只输出实际使用的完整提示词
+```
+【性格定位】奶凶/坏萌 - 可爱外表下的小邪恶
+【设计风格】Yami Kawaii aesthetic
+【完整提示词】
+Cute anthropomorphic raccoon character, Yami Kawaii aesthetic, mischievous smirk with playful evil grin, innocent sparkling eyes with sly glint, naughty devilish expression, fluffy striped tail, wearing black and white striped T-shirt with mini mysterious cape, stylized 3D CGI character render, chibi proportions with oversized head, realistic soft fur texture, realistic fabric texture with soft folds, detailed realistic material rendering, studio lighting with soft shadows, solid pure white background, centered composition, high quality render, 8K, hyper detailed, no text, no UI, no watermark, no logo
+```
 
 ---
 
-## 评估检查清单
+## 七、评估检查清单
 
 在最终交付前，请对照以下清单进行自检：
 
-- [ ] 形象是否具有高度辨识度？（剪影测试）
-- [ ] 是否体现了反差萌/丑萌/奶凶等复合魅力？
-- [ ] 性格是否鲜明且能通过视觉传达？
-- [ ] 配色是否明亮清晰，避免过于繁杂？
-- [ ] 是否有标志性的视觉符号或鞭策动作？
-- [ ] 表情是否有认同感，能引起情感共鸣？
-- [ ] 是否避免了同质化、无趣的设计？
+- [ ] 性格是否具有内在冲突？（不是单一的可爱/酷/凶）
+- [ ] 表情是否传达了性格定位？
+- [ ] 设计风格是否与性格匹配？
+- [ ] 服装是否契合角色人设？
+- [ ] 是否包含完整的固定渲染模块？
+- [ ] 背景是否为纯白色？
+- [ ] 是否避免了文字/水印/UI等干扰元素？
