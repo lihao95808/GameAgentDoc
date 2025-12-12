@@ -1,4 +1,4 @@
-# IP形象创意 - 设计规范 v0.4
+# IP形象创意 - 设计规范 v0.5
 
 ---
 
@@ -138,48 +138,36 @@
 
 ---
 
-## 五、提示词分层结构
+## 五、提示词结构（极简版）
 
-### 分层架构
+### 核心原则
 
-```
-第一层：角色基础        → 角色是什么
-第二层：形态设计层      → 造型语言 + 表情设计 + 配色方案 + 物品元素【可变，由风格决定】
-第三层：形体结构层      → chibi比例、大头小身【固定】
-第四层：材质渲染层      → 3D CGI、毛发质感、布料质感【固定】
-第五层：负面排除        → 排除不需要的元素【固定】
-```
+**风格驱动，极简表达** —— 让风格名称直接主导画面风格，减少冗余描述。
 
-### 组装公式
+### 极简组装公式
 
 ```
-[角色描述] 
-+ [造型语言] 
-+ [表情设计] 
-+ [配色方案] 
-+ [服装描述 + 物品元素] 
-+ [固定形体结构] 
-+ [固定材质渲染] 
-+ [负面排除]
+[风格] style chibi [角色], [核心表情], [配色], [固定渲染]
 ```
 
-### 固定形体结构模块
+### 固定渲染模块
 
 ```
-chibi proportions with oversized head, small cute body
+3D CGI render, soft fur texture, white background, high quality
 ```
 
-### 固定材质渲染模块
+### 完整模板
 
 ```
-stylized 3D CGI character render, realistic soft fur texture, realistic fabric texture with soft folds, detailed realistic material rendering, studio lighting with soft shadows, solid pure white background, centered composition, high quality render, 8K, hyper detailed
+[风格名称] style chibi [角色描述], [1个核心表情关键词], [配色关键词], 3D CGI render, soft fur texture, white background, high quality
 ```
 
-### 固定负面排除模块
+### 示例对比
 
-```
-no text, no UI, no watermark, no logo
-```
+| 类型 | 提示词 |
+|------|--------|
+| **极简版** | `Yoshitomo Nara style chibi hedgehog, pouty arrogant look, soft brown and cream colors, 3D CGI render, white background` |
+| **之前的复杂版** | `Cute anthropomorphic hedgehog character, large flat head with big empty doll-like eyes, minimal simplified facial features, punk-cute aesthetic, slightly oversized head proportion, defiant pouty expression, half-lidded eyes with subtle disdain...（省略100+词）` |
 
 ---
 
@@ -211,39 +199,45 @@ no text, no UI, no watermark, no logo
 
 ```
 【性格定位】xxx（设计表达）
-【设计风格】xxx（4维度）
-【完整提示词】
-[完整英文Prompt，必须包含造型+表情+配色+物品4个维度]
+【设计风格】xxx
+【完整提示词】（极简版）
 ```
 
 ### 交付示例
 
 ```
-【性格定位】奶凶/坏萌 - 可爱外表下的小邪恶
-【设计风格】Yami Kawaii 病娇可爱风
+【性格定位】高高在上的萌 - 傲娇感+萌态
+【设计风格】Yoshitomo Nara 奈良美智风
 
 【完整提示词】
-Cute anthropomorphic fox character, round soft face with oversized sparkling eyes and sweet doll-like features, mischievous smirk with playful evil grin, innocent eyes with hidden darkness, pastel pink and black color scheme with purple accents, wearing cute hoodie decorated with tiny bandages and heart-shaped eyepatch, small pill-shaped hair clips, chibi proportions with oversized head, small cute body, stylized 3D CGI character render, realistic soft fur texture, realistic fabric texture with soft folds, detailed realistic material rendering, studio lighting with soft shadows, solid pure white background, centered composition, high quality render, 8K, hyper detailed, no text, no UI, no watermark, no logo
+Yoshitomo Nara style chibi hedgehog, pouty arrogant look, soft brown and cream colors, 3D CGI render, soft fur texture, white background, high quality
 ```
+
+### 更多极简示例
+
+| 角色 | 性格 | 极简提示词 |
+|------|------|-----------|
+| 狐狸 | 奶凶/坏萌 | `Yami Kawaii style chibi fox, mischievous smirk, pastel pink and black, 3D CGI render, white background` |
+| 小猫 | 厌世丧萌 | `Yoshitomo Nara style chibi cat, bored droopy eyes, muted earth tones, 3D CGI render, white background` |
+| 兔子 | 呆萌 | `Mark Ryden style chibi rabbit, blank innocent stare, vintage pastel colors, 3D CGI render, white background` |
+| 小熊 | 暴躁奶包 | `Chibi style angry bear, puffed cheeks tantrum, bold red and orange, 3D CGI render, white background` |
 
 ---
 
-## 八、评估检查清单
+## 八、评估检查清单（极简版）
 
 在最终交付前，请对照以下清单进行自检：
 
-**性格与风格**
+**推导过程**
 - [ ] 性格是否具有内在冲突？
 - [ ] 是否正确映射到对应的设计风格？
 
-**4维度完整性**
-- [ ] 是否包含造型语言描述？
-- [ ] 是否包含表情设计描述？
-- [ ] 是否包含配色方案描述？
-- [ ] 是否包含物品元素描述？
+**极简提示词结构**
+- [ ] 是否以风格名称开头？（如 `Yoshitomo Nara style`）
+- [ ] 是否包含 `chibi` 关键词？
+- [ ] 是否有核心表情关键词？（1个即可）
+- [ ] 是否有配色关键词？
+- [ ] 是否有固定渲染模块？（`3D CGI render, white background`）
 
-**固定模块**
-- [ ] 是否包含固定形体结构模块（chibi比例）？
-- [ ] 是否包含固定材质渲染模块（3D CGI）？
-- [ ] 是否包含负面排除模块？
-- [ ] 背景是否为纯白色？
+**提示词长度**
+- [ ] 极简版应控制在 **30词以内**
