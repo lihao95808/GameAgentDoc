@@ -140,16 +140,26 @@
 [风格] style chibi [角色], [核心表情], [配色], [固定渲染]
 ```
 
-### 固定渲染模块
+### 固定渲染模块（必选）
 
 ```
-3D CGI render, soft fur texture, white background, high quality
+3D CGI render, white background, high quality
 ```
+
+### 可选质感模块（按角色类型选用）
+
+| 角色类型 | 添加的质感关键词 |
+|----------|-----------------|
+| 毛绒动物（猫、狗、狐狸等） | `realistic soft fur texture` |
+| 穿衣服的角色 | `realistic fabric texture with soft folds` |
+| 机器人/金属材质 | `smooth metallic surface, reflective material` |
+| 果冻/透明材质 | `translucent jelly texture, soft subsurface scattering` |
+| 陶瓷/瓷器材质 | `smooth porcelain surface, glossy ceramic texture` |
 
 ### 完整模板
 
 ```
-[风格名称] style chibi [角色描述], [1个核心表情关键词], [配色关键词], 3D CGI render, soft fur texture, white background, high quality
+[风格名称] style chibi [角色描述], [1个核心表情关键词], [配色关键词], [可选质感], 3D CGI render, white background, high quality
 ```
 
 ### 示例对比
