@@ -1,4 +1,4 @@
-# IP形象创意 - 设计规范 v0.5
+# IP形象创意 - 设计规范 v0.6
 
 ---
 
@@ -10,140 +10,95 @@
 
 ---
 
-## 二、性格定位系统
+## 二、情感定位系统
 
 ### 核心原则
 
-所有IP形象的性格**必须具有内在冲突**，避免单一扁平的性格。
+所有IP形象的情感**必须具有鲜明表达**，通过 Pixar/Dreamworks 级别的表情系统传递角色魅力。
 
-### 性格定位确定规则
+### 情感定位确定规则
 
-根据用户描述的关键词，匹配对应的冲突性格定位：
+根据用户描述的关键词，匹配对应的情感定位：
 
-| 用户关键词 | 匹配的冲突性格定位 |
-|------------|-------------------|
-| 可爱、萌、傲娇 | 高高在上的萌 |
-| 坏、调皮、邪恶、淘气、有趣 | 奶凶/坏萌 |
-| 呆、傻、天然、单纯 | 呆萌/丑萌 |
-| 诡异、病娇、恐怖、不安 | 诡异不安 |
-| 丧、无聊、厌世 | 厌世丧萌 |
-| 害羞、社恐、内向 | 社恐软萌 |
-| 生气、暴躁、愤怒 | 暴躁奶包 |
+| 用户关键词 | 匹配的情感定位 |
+|------------|---------------|
+| 可爱、萌、傲娇 | 傲娇/不屑 |
+| 坏、调皮、邪恶、淘气、有趣 | 得意/调皮 或 邪恶/坏笑 |
+| 呆、傻、天然、单纯 | 困惑/迷茫 |
+| 诡异、病娇、恐怖、不安 | 邪恶/坏笑 |
+| 丧、无聊、厌世 | 无聊/厌世 |
+| 害羞、社恐、内向 | 害羞/紧张 |
+| 生气、暴躁、愤怒 | 生气/愤怒 |
+| 开心、快乐、兴奋 | 开心/兴奋 |
+| 伤心、难过、委屈 | 伤心/委屈 |
+| 惊讶、震惊、意外 | 惊讶/震惊 |
 
-**用户未指定性格时**：根据对需求的理解，自主选择最合适的性格定位
-
----
-
-## 三、设计风格库（完整4维度）
-
-每个艺术风格必须从以下 **4个维度** 进行完整设计：
-
-| 维度 | 说明 | 控制什么 |
-|------|------|----------|
-| 造型语言 | 角色的形态设计 | 脸型、五官特征、整体造型风格 |
-| 表情设计 | 面部表情细节 | 眼神、嘴型、情绪表达 |
-| 配色方案 | 主色调和搭配 | 服装、配饰的颜色 |
-| 物品元素 | 标志性设计元素 | 配饰、道具、装饰细节 |
+**用户未指定情感时**：根据对需求的理解，自主选择最合适的情感定位
 
 ---
 
-### 风格1：Yami Kawaii 病娇可爱风
-
-**适合性格**：奶凶/坏萌、诡异不安
-
-| 维度 | 英文关键词 |
-|------|-----------|
-| 造型语言 | `round soft face, oversized sparkling eyes, sweet doll-like features, cute but slightly unsettling character design` |
-| 表情设计 | `mischievous smirk, sweet smile with unsettling undertone, innocent eyes with hidden darkness, playful evil grin` |
-| 配色方案 | `pastel pink and black color scheme, with purple and red accents, sweet yet dark color palette` |
-| 物品元素 | `decorated with cute dark elements like tiny bandages, small pill-shaped accessories, heart-shaped eyepatch, cute skull charms, syringe-shaped hairpins` |
-
----
-
-### 风格2：Yoshitomo Nara 奈良美智风
-
-**适合性格**：高高在上的萌、厌世丧萌
-
-| 维度 | 英文关键词 |
-|------|-----------|
-| 造型语言 | `large flat head, big empty doll-like eyes, minimal simplified facial features, punk-cute aesthetic, slightly oversized head proportion` |
-| 表情设计 | `defiant pouty expression, half-lidded eyes with subtle disdain, rebellious stare, subtle aggression in cute form, arrogant yet adorable` |
-| 配色方案 | `muted earth tones, soft whites and creams, with occasional bold red or yellow accents, understated color palette` |
-| 物品元素 | `simple minimal props, small bandages, tiny cigarette, simple fabric accessories, punk-inspired small details` |
-
----
-
-### 风格3：Mark Ryden 超现实梦幻风
-
-**适合性格**：呆萌/丑萌
-
-| 维度 | 英文关键词 |
-|------|-----------|
-| 造型语言 | `big glossy eyes, porcelain doll-like skin, surreal proportions, vintage storybook character design, dreamy soft features` |
-| 表情设计 | `blank innocent stare, slightly confused expression, pure empty eyes, dopey adorable look, clueless cute face` |
-| 配色方案 | `vintage pastel colors, soft pinks, baby blues, cream whites, nostalgic fairy tale color palette` |
-| 物品元素 | `whimsical props like tiny crowns, vintage toys, small animals, antique accessories, storybook elements` |
-
----
-
-### 风格4：Studio Ghibli 吉卜力温柔风
-
-**适合性格**：社恐软萌
-
-| 维度 | 英文关键词 |
-|------|-----------|
-| 造型语言 | `soft organic features, warm expressive eyes, natural flowing lines, gentle rounded face, hand-drawn animation inspired design` |
-| 表情设计 | `shy averted gaze, nervous blush, timid smile, anxiously cute expression, wanting-to-hide look, gentle warm expression` |
-| 配色方案 | `warm natural earth tones, soft forest greens, sky blues, sunset oranges, cozy natural color palette` |
-| 物品元素 | `natural elements like small leaves, tiny flowers, simple handmade fabric accessories, cozy knitted items, nature-inspired props` |
-
----
-
-### 风格5：Chibi 夸张表情风
-
-**适合性格**：暴躁奶包
-
-| 维度 | 英文关键词 |
-|------|-----------|
-| 造型语言 | `super deformed proportions, extremely large head, tiny body, exaggerated facial features, dynamic anime-inspired design` |
-| 表情设计 | `puffed angry cheeks, fake fierce pout, trying-to-be-angry face, adorable tantrum expression, comedic exaggerated emotions` |
-| 配色方案 | `bold vibrant colors, bright reds, energetic oranges, dynamic high-contrast color palette` |
-| 物品元素 | `action props like tiny weapons, sports equipment, battle accessories, energy effect decorations, dynamic motion elements` |
-
----
-
-## 四、性格定位 → 设计风格映射
-
-根据性格定位，查询对应的设计风格，然后**必须使用该风格的完整4维度关键词**：
-
-| 性格定位 | 对应设计风格 | 设计表达 |
-|----------|-------------|----------|
-| 高高在上的萌 | Yoshitomo Nara 奈良美智风 | 傲娇感+萌态 |
-| 奶凶/坏萌 | Yami Kawaii 病娇可爱风 | 可爱+小邪恶 |
-| 呆萌/丑萌 | Mark Ryden 超现实梦幻风 | 清澈+迷糊 |
-| 诡异不安 | Yami Kawaii 病娇可爱风 | 甜美+不安 |
-| 厌世丧萌 | Yoshitomo Nara 奈良美智风 | 无聊+可爱 |
-| 社恐软萌 | Studio Ghibli 吉卜力温柔风 | 害羞+可爱 |
-| 暴躁奶包 | Chibi 夸张表情风 | 生气+无害 |
-
----
-
-## 五、提示词结构（极简版）
+## 三、表情系统（Pixar/Dreamworks 级别）
 
 ### 核心原则
 
-**风格驱动，极简表达** —— 让风格名称直接主导画面风格，减少冗余描述。
+表情由 **3个维度** 组合构成，每个情感对应一组完整的表情描述：
 
-### 极简组装公式
+| 维度 | 控制什么 | 作用 |
+|------|---------|------|
+| 眉毛 | 情绪基调 | 决定整体情绪倾向 |
+| 眼睛 | 情绪强度 | 传递情感深度和细节 |
+| 嘴巴 | 情绪表达 | 完成最终的情绪输出 |
+
+### 情感 → 表情映射表
+
+| 情感定位 | 眉毛 | 眼睛 | 嘴巴 | 完整表情关键词 |
+|----------|------|------|------|---------------|
+| **开心/兴奋** | raised eyebrows | wide sparkling eyes | big open smile showing teeth | `raised eyebrows, wide sparkling eyes, big cheerful smile showing teeth` |
+| **得意/调皮** | one raised eyebrow | half-lidded smug eyes | sly smirk | `one raised eyebrow, half-lidded smug eyes, sly confident smirk` |
+| **傲娇/不屑** | slightly furrowed | looking away side-eye | small pout | `slightly furrowed brows, side-eye glance, small dismissive pout` |
+| **害羞/紧张** | raised worried | looking down with blush | nervous small smile | `raised worried brows, shy downcast eyes with blush, nervous little smile` |
+| **生气/愤怒** | deeply furrowed | intense glaring | tight frown | `deeply furrowed angry brows, intense glaring eyes, tight angry frown` |
+| **伤心/委屈** | raised inner corners | teary watery eyes | trembling pout | `raised sad brows, big teary watery eyes, trembling pouty lip` |
+| **惊讶/震惊** | raised high | wide open shocked | open mouth O-shape | `high raised brows, wide shocked eyes, open mouth in surprise` |
+| **无聊/厌世** | relaxed droopy | half-lidded bored | flat unamused line | `droopy relaxed brows, half-lidded bored eyes, flat unamused mouth` |
+| **困惑/迷茫** | one raised confused | slightly squinting | slightly open | `one brow raised confused, slightly squinting puzzled eyes, slightly open mouth` |
+| **邪恶/坏笑** | lowered intense | narrowed scheming | wide evil grin | `lowered intense brows, narrowed scheming eyes, wide mischievous evil grin` |
+
+---
+
+## 四、造型风格库
+
+### 默认造型风格
+
+所有 IP 形象默认使用 **Pixar Dreamworks 3D 动画风格**：
 
 ```
-[风格] style chibi [角色], [核心表情], [配色], [固定渲染]
+Pixar Dreamworks style, 3D animated character, expressive cartoon features, big round head, cute chibi proportions
 ```
 
-### 固定渲染模块（必选）
+### 可选造型变体
+
+| 造型变体 | 关键词 | 适用场景 |
+|----------|--------|---------|
+| 标准可爱 | `cute chibi proportions, round soft features` | 通用 |
+| 毛绒质感 | `fluffy plush toy aesthetic, soft fuzzy texture` | 毛绒玩具风 |
+| 潮玩风格 | `vinyl toy aesthetic, smooth stylized surface` | 潮流玩具 |
+| 复古卡通 | `vintage cartoon style, classic animation look` | 怀旧风格 |
+
+---
+
+## 五、情感定位 → 表情 → 提示词
+
+### 设计流程
 
 ```
-3D CGI render, white background, high quality
+用户需求 → 情感定位 → 查表获取表情关键词 → 组装提示词
+```
+
+### 提示词组装公式
+
+```
+Pixar Dreamworks style chibi [角色], [表情关键词], [配色], [可选质感], 3D CGI render, expressive animated character, white background, high quality
 ```
 
 ### 可选质感模块（按角色类型选用）
@@ -155,19 +110,6 @@
 | 机器人/金属材质 | `smooth metallic surface, reflective material` |
 | 果冻/透明材质 | `translucent jelly texture, soft subsurface scattering` |
 | 陶瓷/瓷器材质 | `smooth porcelain surface, glossy ceramic texture` |
-
-### 完整模板
-
-```
-[风格名称] style chibi [角色描述], [1个核心表情关键词], [配色关键词], [可选质感], 3D CGI render, white background, high quality
-```
-
-### 示例对比
-
-| 类型 | 提示词 |
-|------|--------|
-| **极简版** | `Yoshitomo Nara style chibi hedgehog, pouty arrogant look, soft brown and cream colors, 3D CGI render, white background` |
-| **之前的复杂版** | `Cute anthropomorphic hedgehog character, large flat head with big empty doll-like eyes, minimal simplified facial features, punk-cute aesthetic, slightly oversized head proportion, defiant pouty expression, half-lidded eyes with subtle disdain...（省略100+词）` |
 
 ---
 
@@ -198,48 +140,54 @@
 生成IP形象后，**必须输出以下内容**：
 
 ```
-【性格定位】xxx（设计表达）
-【设计风格】xxx
-【完整提示词】（极简版）
+【情感定位】xxx
+【表情关键词】xxx
+【完整提示词】
 ```
 
 ### 交付示例
 
 ```
-【性格定位】呆萌/丑萌 - 清澈+迷糊
-【设计风格】Mark Ryden 超现实梦幻风
+【情感定位】得意/调皮
+【表情关键词】one raised eyebrow, half-lidded smug eyes, sly confident smirk
 
 【完整提示词】
-Mark Ryden style chibi robot, blank innocent stare, vintage pastel colors, 3D CGI render, white background, high quality
+Pixar Dreamworks style chibi fox, one raised eyebrow, half-lidded smug eyes, sly confident smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background, high quality
 ```
 
-### 更多极简示例（多样化角色类型）
+### 更多示例（基于表情系统）
 
-| 类型 | 角色 | 性格 | 极简提示词 |
-|------|------|------|-----------|
-| 🐱 动物 | 小猫 | 厌世丧萌 | `Yoshitomo Nara style chibi cat, bored droopy eyes, muted earth tones, 3D CGI render, white background` |
-| 🤖 机器人 | 小机器人 | 呆萌 | `Mark Ryden style chibi robot, blank innocent stare, soft pastel colors, 3D CGI render, white background` |
-| 🧚 精灵 | 森林精灵 | 社恐软萌 | `Studio Ghibli style chibi forest spirit, shy averted gaze, warm earth greens, 3D CGI render, white background` |
-| 🍰 物品 | 蛋糕精灵 | 呆萌 | `Mark Ryden style chibi cake character, dopey adorable look, soft pinks and cream, 3D CGI render, white background` |
-| 🐻 动物 | 小熊 | 暴躁奶包 | `Chibi style angry bear, puffed cheeks tantrum, bold red and orange, 3D CGI render, white background` |
-| 🦊 动物 | 狐狸 | 奶凶/坏萌 | `Yami Kawaii style chibi fox, mischievous smirk, pastel pink and black, 3D CGI render, white background` |
+| 情感 | 角色 | 完整提示词 |
+|------|------|-----------|
+| 🎉 开心/兴奋 | 小狗 | `Pixar Dreamworks style chibi dog, raised eyebrows, wide sparkling eyes, big cheerful smile showing teeth, golden and white colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😏 得意/调皮 | 狐狸 | `Pixar Dreamworks style chibi fox, one raised eyebrow, half-lidded smug eyes, sly confident smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😤 傲娇/不屑 | 小猫 | `Pixar Dreamworks style chibi cat, slightly furrowed brows, side-eye glance, small dismissive pout, gray and white colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😊 害羞/紧张 | 兔子 | `Pixar Dreamworks style chibi bunny, raised worried brows, shy downcast eyes with blush, nervous little smile, soft pink colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😠 生气/愤怒 | 小熊 | `Pixar Dreamworks style chibi bear, deeply furrowed angry brows, intense glaring eyes, tight angry frown, brown and red colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😢 伤心/委屈 | 小猫 | `Pixar Dreamworks style chibi cat, raised sad brows, big teary watery eyes, trembling pouty lip, blue-gray colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😱 惊讶/震惊 | 松鼠 | `Pixar Dreamworks style chibi squirrel, high raised brows, wide shocked eyes, open mouth in surprise, brown and orange colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| � 无聊/厌世 | 猫头鹰 | `Pixar Dreamworks style chibi owl, droopy relaxed brows, half-lidded bored eyes, flat unamused mouth, gray and brown colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 🤔 困惑/迷茫 | 小熊猫 | `Pixar Dreamworks style chibi red panda, one brow raised confused, slightly squinting puzzled eyes, slightly open mouth, orange and white colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
+| 😈 邪恶/坏笑 | 浣熊 | `Pixar Dreamworks style chibi raccoon, lowered intense brows, narrowed scheming eyes, wide mischievous evil grin, dark gray and black colors, realistic soft fur texture, 3D CGI render, expressive animated character, white background` |
 
 ---
 
-## 八、评估检查清单（极简版）
+## 八、评估检查清单
 
 在最终交付前，请对照以下清单进行自检：
 
-**推导过程**
-- [ ] 性格是否具有内在冲突？
-- [ ] 是否正确映射到对应的设计风格？
+**情感与表情**
+- [ ] 是否确定了情感定位？
+- [ ] 是否使用了完整的3维度表情关键词（眉毛+眼睛+嘴巴）？
 
-**极简提示词结构**
-- [ ] 是否以风格名称开头？（如 `Yoshitomo Nara style`）
-- [ ] 是否包含 `chibi` 关键词？
-- [ ] 是否有核心表情关键词？（1个即可）
+**提示词结构**
+- [ ] 是否以 `Pixar Dreamworks style chibi` 开头？
+- [ ] 是否包含完整表情关键词？
 - [ ] 是否有配色关键词？
-- [ ] 是否有固定渲染模块？（`3D CGI render, white background`）
+- [ ] 是否根据角色类型添加了质感模块？
+- [ ] 是否有固定渲染模块？（`3D CGI render, expressive animated character, white background, high quality`）
 
-**提示词长度**
-- [ ] 极简版应控制在 **30词以内**
+**交付内容**
+- [ ] 是否输出了情感定位？
+- [ ] 是否输出了表情关键词？
+- [ ] 是否输出了完整提示词？
