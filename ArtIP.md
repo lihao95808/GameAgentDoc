@@ -22,48 +22,56 @@
 
 | 用户关键词 | 匹配的情感定位 |
 |------------|---------------|
-| 可爱、萌、傲娇 | 傲娇/不屑 |
-| 坏、调皮、邪恶、淘气、有趣 | 得意/调皮 或 邪恶/坏笑 |
-| 呆、傻、天然、单纯 | 困惑/迷茫 |
-| 诡异、病娇、恐怖、不安 | 邪恶/坏笑 |
-| 丧、无聊、厌世 | 无聊/厌世 |
-| 害羞、社恐、内向 | 害羞/紧张 |
-| 生气、暴躁、愤怒 | 生气/愤怒 |
-| 开心、快乐、兴奋 | 开心/兴奋 |
-| 伤心、难过、委屈 | 伤心/委屈 |
-| 惊讶、震惊、意外 | 惊讶/震惊 |
-| 帅气、酷、冷酷 | 得意/调皮 |
-| 优雅、高贵、气质 | 傲娇/不屑 |
-| 可怜、楚楚动人 | 伤心/委屈 |
+| 生气、暴躁、愤怒、发火 | 暴怒大喊 |
+| 害怕、恐惧、惊恐 | 惊恐尖叫 |
+| 丧、无聊、厌世、躺平、摆烂 | 悠闲躺平 |
+| 坏、调皮、狡猾、得意 | 得意坏笑 |
+| 焦虑、纠结、困扰、烦恼 | 焦虑困扰 |
+| 饿、馋、贪吃、想吃 | 贪吃馋嘴 |
+| 哭、伤心、崩溃、绝望 | 大哭崩溃 |
+| 紧张、不安、僵硬 | 紧张僵硬 |
+| 恨、咬牙、愤恨 | 咬牙切齿 |
+| 开心、快乐、兴奋、大笑 | 开心大笑 |
+| 惊讶、震惊、意外、吃惊 | 震惊吃惊 |
+| 傲娇、高冷、不屑 | 傲娇不屑 |
+| 害羞、脸红、内向、社恐 | 害羞脸红 |
+| 呆、傻、迷茫、懵 | 困惑迷茫 |
+| 邪恶、坏、狂、恶 | 邪恶狂笑 |
 
 **用户未指定情感时**：根据对需求的理解，自主选择最合适的情感定位
 
 ### 情感 → 自动推荐组合
 
-根据情感定位，**自动推荐**最合适的艺术风格：
+根据情感定位，**自动推荐**最合适的艺术风格和身材比例：
 
 | 情感定位 | 推荐艺术风格 | 推荐身材比例 |
 |----------|-------------|-------------|
-| 开心/兴奋 | Pixar Dreamworks, Sanrio | 标准比例, Q版 |
-| 得意/调皮 | Pixar Dreamworks, Takashi Murakami | 标准比例, Q版 |
-| 傲娇/不屑 | Yoshitomo Nara, Pixar Dreamworks | 标准比例, 修长比例 |
-| 害羞/紧张 | Studio Ghibli, Sanrio | Q版, 标准比例 |
-| 生气/愤怒 | Chibi, Ron English | Q版（表情最夸张） |
-| 伤心/委屈 | Studio Ghibli, Mark Ryden | 标准比例, Q版 |
-| 惊讶/震惊 | Chibi, Tim Burton | Q版（表情最夸张） |
-| 无聊/厌世 | Yoshitomo Nara | 标准比例 |
-| 困惑/迷茫 | Mark Ryden, Pixar Dreamworks | 标准比例, Q版 |
-| 邪恶/坏笑 | Tim Burton, Yami Kawaii, Gary Baseman | 标准比例, 修长比例 |
+| 暴怒大喊 | Chibi, Ron English | Q版（表情最夸张） |
+| 惊恐尖叫 | Chibi, Tim Burton | Q版（表情最夸张） |
+| 悠闲躺平 | Yoshitomo Nara, Sanrio | 标准比例, 萌系圆润 |
+| 得意坏笑 | Pixar Dreamworks, Takashi Murakami | 标准比例, Q版 |
+| 焦虑困扰 | Pixar Dreamworks, Studio Ghibli | 标准比例 |
+| 贪吃馋嘴 | Pixar Dreamworks, Sanrio | Q版, 标准比例 |
+| 大哭崩溃 | Studio Ghibli, Mark Ryden | Q版（更惹人怜） |
+| 紧张僵硬 | Pixar Dreamworks | 标准比例 |
+| 咬牙切齿 | Chibi, Ron English | Q版（更显奶凶） |
+| 开心大笑 | Pixar Dreamworks, Sanrio | 标准比例, Q版 |
+| 震惊吃惊 | Chibi, Tim Burton | Q版（表情最夸张） |
+| 傲娇不屑 | Yoshitomo Nara, Pixar Dreamworks | 标准比例, 修长比例 |
+| 害羞脸红 | Studio Ghibli, Sanrio | Q版, 标准比例 |
+| 困惑迷茫 | Mark Ryden, Pixar Dreamworks | 标准比例, Q版 |
+| 无聊厌世 | Yoshitomo Nara | 标准比例 |
+| 邪恶狂笑 | Tim Burton, Yami Kawaii, Gary Baseman | 标准比例, 修长比例 |
 
 **用户指定风格时**：优先使用用户指定的风格
 
 ---
 
-## 三、表情系统（Pixar/Dreamworks 级别）
+## 三、表情系统（夸张感染力版）
 
 ### 核心原则
 
-表情由 **3个维度** 组合构成，每个情感对应一组完整的表情描述：
+表情由 **3个维度** 组合构成，追求**一眼能读懂的夸张表情**，让人产生共鸣：
 
 | 维度 | 控制什么 | 作用 |
 |------|---------|------|
@@ -75,16 +83,22 @@
 
 | 情感定位 | 眉毛 | 眼睛 | 嘴巴 | 完整表情关键词 |
 |----------|------|------|------|---------------|
-| **开心/兴奋** | raised eyebrows | wide sparkling eyes | big open smile showing teeth | `raised eyebrows, wide sparkling eyes, big cheerful smile showing teeth` |
-| **得意/调皮** | one raised eyebrow | half-lidded smug eyes | sly smirk | `one raised eyebrow, half-lidded smug eyes, sly confident smirk` |
-| **傲娇/不屑** | slightly furrowed | looking away side-eye | small pout | `slightly furrowed brows, side-eye glance, small dismissive pout` |
-| **害羞/紧张** | raised worried | looking down with blush | nervous small smile | `raised worried brows, shy downcast eyes with blush, nervous little smile` |
-| **生气/愤怒** | deeply furrowed | intense glaring | tight frown | `deeply furrowed angry brows, intense glaring eyes, tight angry frown` |
-| **伤心/委屈** | raised inner corners | teary watery eyes | trembling pout | `raised sad brows, big teary watery eyes, trembling pouty lip` |
-| **惊讶/震惊** | raised high | wide open shocked | open mouth O-shape | `high raised brows, wide shocked eyes, open mouth in surprise` |
-| **无聊/厌世** | relaxed droopy | half-lidded bored | flat unamused line | `droopy relaxed brows, half-lidded bored eyes, flat unamused mouth` |
-| **困惑/迷茫** | one raised confused | slightly squinting | slightly open | `one brow raised confused, slightly squinting puzzled eyes, slightly open mouth` |
-| **邪恶/坏笑** | lowered intense | narrowed scheming | wide evil grin | `lowered intense brows, narrowed scheming eyes, wide mischievous evil grin` |
+| **暴怒大喊** | deeply furrowed angry | bulging wide eyes | wide open mouth screaming | `deeply furrowed angry brows, bulging wide furious eyes, wide open mouth screaming in rage` |
+| **惊恐尖叫** | high raised in terror | round bulging shocked eyes | wide open mouth screaming | `high raised terrified brows, round bulging shocked eyes, wide open mouth screaming in fear` |
+| **悠闲躺平** | relaxed droopy | half-closed lazy eyes | slightly open relaxed mouth | `relaxed droopy brows, half-closed lazy contented eyes, slightly open relaxed mouth` |
+| **得意坏笑** | one raised mischievous | squinting sly eyes | crooked smug smirk | `one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk` |
+| **焦虑困扰** | furrowed worried | darting anxious eyes | teeth clenched grimace | `furrowed worried brows, darting anxious uneasy eyes, teeth clenched nervous grimace` |
+| **贪吃馋嘴** | raised eager | wide sparkling hungry eyes | tongue sticking out licking lips | `raised eager brows, wide sparkling hungry eyes, tongue sticking out licking lips` |
+| **大哭崩溃** | raised in despair | streaming tears overflowing | wide open mouth wailing | `raised despairing brows, eyes streaming with tears overflowing, wide open mouth wailing crying` |
+| **紧张僵硬** | slightly raised tense | wide stiff nervous eyes | tight closed tense mouth | `slightly raised tense brows, wide stiff nervous eyes, tight closed tense mouth` |
+| **咬牙切齿** | deeply furrowed intense | fierce glaring eyes | teeth bared snarling | `deeply furrowed intense brows, fierce glaring eyes, teeth bared snarling` |
+| **开心大笑** | raised joyful | sparkling crescent happy eyes | wide open laughing mouth | `raised joyful brows, sparkling crescent-shaped happy eyes, wide open laughing mouth showing teeth` |
+| **震惊吃惊** | high raised shocked | bulging popping out eyes | wide O-shaped gasping mouth | `high raised shocked brows, bulging popping out eyes, wide O-shaped gasping mouth` |
+| **傲娇不屑** | one slightly raised | side-eye dismissive glance | small pouty pursed lips | `one slightly raised brow, side-eye dismissive glance, small pouty pursed lips` |
+| **害羞脸红** | raised worried | downcast shy eyes with blush | nervous small smile | `raised worried brows, downcast shy eyes with heavy blush, nervous small timid smile` |
+| **无聊厌世** | droopy flat | half-lidded dead fish eyes | flat unamused straight line | `droopy flat brows, half-lidded dead fish bored eyes, flat unamused straight line mouth` |
+| **困惑迷茫** | one raised confused | squinting puzzled eyes | crooked confused frown | `one brow raised confused, squinting puzzled uncertain eyes, crooked confused slight frown` |
+| **邪恶狂笑** | lowered menacing | narrowed evil scheming eyes | wide sinister grin | `lowered menacing brows, narrowed evil scheming eyes, wide sinister evil grin` |
 
 ---
 
