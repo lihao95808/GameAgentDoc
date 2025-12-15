@@ -46,22 +46,22 @@
 
 | 情感定位 | 推荐艺术风格 | 推荐身材比例 |
 |----------|-------------|-------------|
-| 暴怒大喊 | Chibi, Ron English | Q版（表情最夸张） |
+| 暴怒大喊 | Chibi, 蜡笔小新 | Q版（表情最夸张） |
 | 惊恐尖叫 | Chibi, Tim Burton | Q版（表情最夸张） |
-| 悠闲躺平 | Yoshitomo Nara, Sanrio | 标准比例, 萌系圆润 |
-| 得意坏笑 | Pixar Dreamworks, Takashi Murakami | 标准比例, Q版 |
-| 焦虑困扰 | Pixar Dreamworks, Studio Ghibli | 标准比例 |
-| 贪吃馋嘴 | Pixar Dreamworks, Sanrio | Q版, 标准比例 |
-| 大哭崩溃 | Studio Ghibli, Mark Ryden | Q版（更惹人怜） |
-| 紧张僵硬 | Pixar Dreamworks | 标准比例 |
-| 咬牙切齿 | Chibi, Ron English | Q版（更显奶凶） |
-| 开心大笑 | Pixar Dreamworks, Sanrio | 标准比例, Q版 |
-| 震惊吃惊 | Chibi, Tim Burton | Q版（表情最夸张） |
-| 傲娇不屑 | Yoshitomo Nara, Pixar Dreamworks | 标准比例, 修长比例 |
-| 害羞脸红 | Studio Ghibli, Sanrio | Q版, 标准比例 |
-| 困惑迷茫 | Mark Ryden, Pixar Dreamworks | 标准比例, Q版 |
-| 无聊厌世 | Yoshitomo Nara | 标准比例 |
-| 邪恶狂笑 | Tim Burton, Yami Kawaii, Gary Baseman | 标准比例, 修长比例 |
+| 悠闲躺平 | Loopy, Chiikawa | 萌系圆润, Q版 |
+| 得意坏笑 | Pixar, Pokemon | 标准比例, Q版 |
+| 焦虑困扰 | Pixar, Line Friends | 标准比例 |
+| 贪吃馋嘴 | Pixar, Loopy | Q版, 标准比例 |
+| 大哭崩溃 | Chiikawa, Loopy | Q版（更惹人怜） |
+| 紧张僵硬 | Line Friends, Pixar | 标准比例 |
+| 咬牙切齿 | Chibi, 蜡笔小新 | Q版（更显奶凶） |
+| 开心大笑 | Pixar, Sanrio, Pokemon | 标准比例, Q版 |
+| 震惊吃惊 | Chibi, 蜡笔小新 | Q版（表情最夸张） |
+| 傲娇不屑 | Kuromi, Nara | 标准比例, 修长比例 |
+| 害羞脸红 | Chiikawa, Sanrio, Loopy | Q版, 萌系圆润 |
+| 困惑迷茫 | Line Friends, Pixar | 标准比例, Q版 |
+| 无聊厌世 | Nara, Chiikawa | 标准比例 |
+| 邪恶狂笑 | Tim Burton, Kuromi | 标准比例, 修长比例 |
 
 **用户指定风格时**：优先使用用户指定的风格
 
@@ -104,160 +104,178 @@
 
 ## 四、艺术风格库
 
-### 风格选择规则
+### 风格核心原则
 
-根据用户需求或偏好，选择合适的艺术风格。每种风格都可与表情系统结合使用。
+> **颜色明亮、分割清晰、不要过于花、明确的主色**
 
----
-
-### 风格1：Pixar Dreamworks 动画风格
-
-**特点**：电影级表情，丰富细腻，适合需要强烈情绪表达的 IP
-
-| 维度 | 关键词 |
-|------|--------|
-| 造型 | `Pixar Dreamworks style, 3D animated character, expressive cartoon features, big round head, cute chibi proportions` |
-| 适用 | 通用、儿童向、品牌吉祥物 |
+所有风格都应遵循：
+- ✅ 饱和度高的明亮色彩
+- ✅ 颜色区域分明，边界清晰
+- ✅ 简洁造型，避免过多细节
+- ✅ 1-2个标志性主色
 
 ---
 
-### 风格2：Yoshitomo Nara 奈良美智风
+### 风格1：Sanrio 三丽鸥风（Hello Kitty、美乐蒂）
 
-**特点**：叛逆嘟嘴、半眯眼、朋克可爱，适合傲娇/厌世情感
+**特点**：极简符号化、纯粹可爱、颜色分割清晰
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Yoshitomo Nara style, large flat head, big empty doll-like eyes, minimal simplified features, punk-cute aesthetic` |
-| 适用 | 傲娇、厌世、文艺向 |
+| 造型 | `Sanrio style, extremely simple kawaii character, minimal dot eyes, no mouth or tiny mouth, round soft blob shape, clean solid colors, flat color blocks, iconic silhouette` |
+| 配色 | 明亮单一主色（粉/白/黄），颜色分割清晰 |
+| 适用 | 可爱、少女向、文创、表情包 |
 
 ---
 
-### 风格3：Takashi Murakami 村上隆超扁平风
+### 风格2：Line Friends 风（布朗熊、可妮兔）
 
-**特点**：标志性花朵表情、超扁平大眼、波普艺术感
+**特点**：简洁轮廓、大色块填充、表情简单直接
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Takashi Murakami superflat style, colorful pop art character, bold graphic eyes, vibrant colors, flat 2D aesthetic` |
-| 适用 | 潮流、艺术、时尚品牌 |
+| 造型 | `Line Friends style, simple rounded character, bold clean outline, flat solid color fill, minimal facial features, dot eyes, simple expressions, smooth surface` |
+| 配色 | 单一明确主色（棕/白/黄），无渐变 |
+| 适用 | 通用、表情包、品牌吉祥物 |
 
 ---
 
-### 风格4：Mark Ryden 超现实梦幻风
+### 风格3：Loopy 露比风（粉红小海狸）
 
-**特点**：空洞呆滞、瓷娃娃感、复古童话
+**特点**：圆润软萌、粉嫩配色、简单五官
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Mark Ryden style, big glossy eyes, porcelain doll-like skin, surreal proportions, vintage storybook aesthetic` |
-| 适用 | 呆萌、梦幻、复古 |
+| 造型 | `Loopy style, super round soft character, chubby cute proportions, simple dot eyes, small nose, minimal details, smooth matte surface, bright pastel colors` |
+| 配色 | 粉嫩柔和主色，颜色纯净 |
+| 适用 | 软萌、治愈、儿童向 |
 
 ---
 
-### 风格5：Tim Burton 哥特风
+### 风格4：Pokemon 宝可梦风（皮卡丘）
 
-**特点**：大眼睛、螺旋瞳孔、歪嘴笑、暗黑可爱
+**特点**：明亮饱和色、清晰轮廓、标志性造型
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Tim Burton style, huge round eyes with spiral pupils, pale gothic aesthetic, crooked quirky features, dark whimsical` |
-| 适用 | 诡异、万圣节、暗黑可爱 |
+| 造型 | `Pokemon style, bright saturated colors, clean sharp outlines, iconic simple silhouette, expressive large eyes, cute creature design, solid color blocks` |
+| 配色 | 高饱和明亮主色（黄/蓝/红），对比清晰 |
+| 适用 | 活泼、儿童向、游戏角色 |
 
 ---
 
-### 风格6：Studio Ghibli 吉卜力温柔风
+### 风格5：Pixar 皮克斯风（草莓熊、大眼仔）
 
-**特点**：手绘动画感、温暖自然、柔和线条
+**特点**：3D 渲染质感、表情丰富、颜色饱满
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Studio Ghibli style, soft organic features, warm expressive eyes, natural flowing lines, hand-drawn animation aesthetic` |
-| 适用 | 治愈、自然、温柔向 |
+| 造型 | `Pixar style, 3D rendered character, expressive big eyes, smooth rounded forms, bright saturated colors, clean surface, clear color separation, soft lighting` |
+| 配色 | 饱满明亮主色，柔和渐变 |
+| 适用 | 通用、品牌、儿童向 |
 
 ---
 
-### 风格7：Sanrio 三丽鸥可爱风
+### 风格6：Crayon Shin-chan 蜡笔小新风
 
-**特点**：极简五官、符号化表情、纯粹可爱
+**特点**：粗线条、扁平色块、夸张简化
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Sanrio style, simple kawaii character, minimal facial features, round soft shapes, pure adorable aesthetic` |
-| 适用 | 可爱、少女向、文创 |
+| 造型 | `Crayon Shin-chan style, thick black outlines, flat bold colors, simplified exaggerated features, 2D cartoon aesthetic, minimal shading, comic style` |
+| 配色 | 鲜艳扁平色块，无渐变 |
+| 适用 | 搞笑、日常、表情夸张 |
 
 ---
 
-### 风格8：Yami Kawaii 病娇可爱风
+### 风格7：Kuromi 库洛米风（暗黑可爱）
 
-**特点**：甜美中带不安、可爱但诡异、暗黑少女
+**特点**：黑粉配色、小恶魔元素、可爱中带叛逆
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Yami Kawaii style, sweet doll-like features with unsettling undertone, pastel colors with dark accents, cute but creepy` |
-| 适用 | 病娇、暗黑甜美、亚文化 |
+| 造型 | `Kuromi style, cute devil character, black and pink color scheme, simple kawaii features, small skull or bat accessories, clean color blocks, minimal details` |
+| 配色 | 黑+粉/紫为主，对比强烈 |
+| 适用 | 暗黑可爱、亚文化、少女向 |
 
 ---
 
-### 风格9：Gary Baseman 诡异可爱风
+### 风格8：Chiikawa 吉伊卡哇风（极简手绘）
 
-**特点**：不安的微笑、诡异萌、成人向卡通
+**特点**：极简线条、软糯造型、手绘感
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Gary Baseman style, creepy cute character, unsettling adorable smile, quirky surreal design, dark humor aesthetic` |
-| 适用 | 诡异、艺术收藏、成人向 |
+| 造型 | `Chiikawa style, extremely simple hand-drawn character, wobbly soft outlines, tiny dot eyes, blushing cheeks, minimal blob body, pastel soft colors` |
+| 配色 | 柔和淡色，简单纯净 |
+| 适用 | 治愈、可爱、表情包 |
 
 ---
 
-### 风格10：Ron English 波普变形风
+### 风格9：Molly 泡泡玛特潮玩风
 
-**特点**：夸张变形、波普艺术、讽刺幽默
+**特点**：光滑乙烯基质感、大眼无表情、潮流艺术
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Ron English style, pop art distorted character, exaggerated features, bold satirical design, surreal pop aesthetic` |
-| 适用 | 潮玩、艺术、讽刺向 |
+| 造型 | `Molly Pop Mart style, vinyl toy aesthetic, smooth glossy surface, large sparkly eyes, blank cute expression, designer toy proportions, collectible figure look` |
+| 配色 | 明亮糖果色，光泽质感 |
+| 适用 | 潮玩、收藏、艺术向 |
 
 ---
 
-### 风格11：Chibi 夸张Q版风
+### 风格10：Chibi 夸张Q版风
 
-**特点**：超大头、小身体、夸张表情、动态感
+**特点**：超大头、小身体、表情夸张
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Chibi style, super deformed proportions, extremely large head, tiny body, exaggerated anime features` |
+| 造型 | `Chibi style, super deformed 2-head-tall proportions, extremely large head, tiny body, exaggerated expressions, bright solid colors, clean simple design` |
+| 配色 | 明亮饱和，颜色分明 |
 | 适用 | 暴躁、搞笑、动态表情 |
 
 ---
 
-### 风格12：Kemono 日式兽人风
+### 风格11：Yoshitomo Nara 奈良美智风
 
-**特点**：日式拟人动物、表情丰富、萌系兽人
+**特点**：叛逆眼神、嘟嘴、朋克可爱
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Kemono style, Japanese furry aesthetic, expressive anime animal face, cute anthropomorphic design` |
-| 适用 | 拟人动物、日系、兽人向 |
+| 造型 | `Yoshitomo Nara style, large flat head, big defiant eyes, minimal features, punk-cute aesthetic, muted earth tones, simple clean design` |
+| 配色 | 柔和大地色，偶尔亮色点缀 |
+| 适用 | 傲娇、厌世、文艺向 |
+
+---
+
+### 风格12：Tim Burton 哥特风
+
+**特点**：大眼睛、苍白、暗黑童话
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Tim Burton style, huge round eyes, pale skin, dark whimsical aesthetic, simple gothic design, black and white with color accents, quirky proportions` |
+| 配色 | 黑白为主，点缀亮色 |
+| 适用 | 诡异、万圣节、暗黑可爱 |
 
 ---
 
 ### 风格速查表
 
-| 风格 | 关键词前缀 | 最适合的情感 |
-|------|-----------|-------------|
-| Pixar Dreamworks | `Pixar Dreamworks style` | 所有情感（表情最丰富） |
-| Yoshitomo Nara | `Yoshitomo Nara style` | 傲娇、厌世 |
-| Takashi Murakami | `Takashi Murakami superflat style` | 开心、邪恶 |
-| Mark Ryden | `Mark Ryden style` | 困惑、呆萌 |
-| Tim Burton | `Tim Burton style` | 惊讶、邪恶 |
-| Studio Ghibli | `Studio Ghibli style` | 害羞、伤心 |
-| Sanrio | `Sanrio style` | 开心、害羞 |
-| Yami Kawaii | `Yami Kawaii style` | 邪恶、困惑 |
-| Gary Baseman | `Gary Baseman style` | 邪恶、困惑 |
-| Ron English | `Ron English style` | 生气、邪恶 |
-| Chibi | `Chibi style` | 生气、惊讶 |
-| Kemono | `Kemono style` | 所有情感 |
+| 风格 | 关键词前缀 | 配色特点 | 最适合情感 |
+|------|-----------|---------|-----------|
+| Sanrio | `Sanrio style` | 粉/白/黄，极简 | 开心、害羞 |
+| Line Friends | `Line Friends style` | 棕/白，大色块 | 通用 |
+| Loopy | `Loopy style` | 粉嫩柔和 | 软萌、治愈 |
+| Pokemon | `Pokemon style` | 高饱和明亮 | 活泼、开心 |
+| Pixar | `Pixar style` | 饱满明亮 | 所有情感 |
+| 蜡笔小新 | `Crayon Shin-chan style` | 扁平鲜艳 | 搞笑、夸张 |
+| Kuromi | `Kuromi style` | 黑+粉/紫 | 傲娇、叛逆 |
+| Chiikawa | `Chiikawa style` | 柔和淡色 | 治愈、害羞 |
+| Molly | `Molly Pop Mart style` | 糖果色光泽 | 潮流、艺术 |
+| Chibi | `Chibi style` | 明亮饱和 | 暴怒、惊讶 |
+| Nara | `Yoshitomo Nara style` | 大地色 | 傲娇、厌世 |
+| Tim Burton | `Tim Burton style` | 黑白+亮色 | 诡异、邪恶 |
 
 ---
 
