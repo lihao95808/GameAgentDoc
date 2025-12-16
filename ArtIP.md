@@ -4,7 +4,7 @@
 
 ## 🎨 当前固定风格设置
 
-> **本次创作统一使用以下艺术风格**
+> **本次创作统一使用以下设置**
 
 | 设置项 | 当前值 |
 |--------|--------|
@@ -12,6 +12,42 @@
 | **风格关键词** | `90s anime style, retro anime aesthetic, cel shading, soft airbrushed shadows, vintage anime color palette, hand-drawn linework, nostalgic Japanese animation` |
 | **配色特点** | 柔和复古色调、温暖怀旧感、赛璐珞着色 |
 | **适合情感** | 怀旧、浪漫、热血、温馨 |
+
+### 📐 构图固定设置
+
+| 设置项 | 当前值 | 关键词 |
+|--------|--------|--------|
+| **角色数量** | 单一角色 | `single character, solo, one character only` |
+| **构图位置** | 画面居中 | `centered composition, character in center` |
+| **身体范围** | 全身像 | `full body shot, showing full body` |
+| **姿态/动作** | 自由指定 | （根据需求填写，如 `standing`, `sitting`, `jumping`, `running` 等） |
+
+### 🚫 构图避免项（防止常见问题）
+
+| 问题 | 解决关键词 |
+|------|-----------|
+| 角色重复出现 | `single character, solo, one character only` |
+| 角色偏离中心 | `centered composition, character in center` |
+| 只显示半身 | `full body shot, showing full body from head to toe` |
+| 多角度同框 | `single view, front view` |
+
+### ⚠️ 必须包含的构图关键词
+
+每个提示词都**必须**包含以下内容：
+```
+single character, solo, centered composition, full body shot
+```
+
+### 🎬 动作参考（按需选用）
+
+| 动作类型 | 关键词示例 |
+|----------|-----------|
+| **静态** | `standing pose`, `sitting pose`, `kneeling` |
+| **动态** | `running`, `jumping`, `flying`, `dancing` |
+| **情绪** | `waving hand`, `peace sign pose`, `arms crossed`, `hands on hips` |
+| **互动** | `holding [物品]`, `hugging`, `pointing` |
+| **休闲** | `lying down`, `sleeping pose`, `stretching` |
+| **战斗** | `fighting stance`, `punching`, `kicking` |
 
 ### 90s Anime 风格核心特征
 
@@ -27,17 +63,17 @@
 ### 90s Anime 风格提示词模板
 
 ```
-90s anime style, retro anime aesthetic, [角色类型], [表情/姿态], [配色], cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, high quality
+90s anime style, retro anime aesthetic, single character, solo, centered composition, full body shot, [角色类型], [表情/姿态], [配色], cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, white background, high quality
 ```
 
 ### 90s Anime 风格示例
 
 | 主题 | 完整提示词 |
 |------|-----------|
-| 元气少女 | `90s anime style, retro anime aesthetic, cute anime girl character, cheerful smiling pose with peace sign, pink and white colors, cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
-| 热血少年 | `90s anime style, retro anime aesthetic, cool anime boy character, determined confident pose, blue and black colors, cel shading, soft airbrushed shadows, large expressive anime eyes, spiky hair with shine, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
-| 魔法猫咪 | `90s anime style, retro anime aesthetic, magical cat character with ribbon, playful cute pose, pastel purple and gold colors, cel shading, soft airbrushed shadows, large sparkling anime eyes, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
-| 麻将精灵 | `90s anime style, retro anime aesthetic, anthropomorphic mahjong tile character with cute face, confident standing pose, white and green traditional colors, cel shading, soft airbrushed shadows, large expressive anime eyes, hand-drawn linework, vintage anime color palette` |
+| 元气少女 | `90s anime style, retro anime aesthetic, single character, solo, centered composition, full body shot, cute anime girl character, cheerful smiling standing pose with peace sign, pink and white colors, cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, white background` |
+| 热血少年 | `90s anime style, retro anime aesthetic, single character, solo, centered composition, full body shot, cool anime boy character, determined confident standing pose, blue and black colors, cel shading, soft airbrushed shadows, large expressive anime eyes, spiky hair with shine, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, white background` |
+| 魔法猫咪 | `90s anime style, retro anime aesthetic, single character, solo, centered composition, full body shot, magical cat character with ribbon, playful cute standing pose, pastel purple and gold colors, cel shading, soft airbrushed shadows, large sparkling anime eyes, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, white background` |
+| 麻将精灵 | `90s anime style, retro anime aesthetic, single character, solo, centered composition, full body shot, anthropomorphic mahjong tile character with cute face, confident standing pose, white and green traditional colors, cel shading, soft airbrushed shadows, large expressive anime eyes, hand-drawn linework, vintage anime color palette, white background` |
 
 ### 90s Anime 经典参考
 
