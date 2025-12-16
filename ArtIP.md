@@ -4,38 +4,50 @@
 
 ## 🎨 当前固定风格设置
 
-> **本次创作统一使用以下艺术家风格**
+> **本次创作统一使用以下艺术风格**
 
 | 设置项 | 当前值 |
 |--------|--------|
-| **固定艺术家** | KAWS |
-| **风格关键词** | `KAWS style, oversized head, XX crossed eyes, simplified cartoon features, smooth vinyl toy aesthetic, bold graphic design, street art influence` |
-| **配色特点** | 灰/粉/蓝等柔和色，干净简洁 |
-| **适合情感** | 潮流、酷、艺术、时尚 |
+| **固定风格** | 90s Anime Style（90年代动画风格） |
+| **风格关键词** | `90s anime style, retro anime aesthetic, cel shading, soft airbrushed shadows, vintage anime color palette, hand-drawn linework, nostalgic Japanese animation` |
+| **配色特点** | 柔和复古色调、温暖怀旧感、赛璐珞着色 |
+| **适合情感** | 怀旧、浪漫、热血、温馨 |
 
-### KAWS 风格核心特征
+### 90s Anime 风格核心特征
 
 | 特征 | 描述 | 必须包含 |
 |------|------|---------|
-| **XX 眼睛** | 标志性的交叉眼睛 | ✅ `XX crossed eyes` |
-| **大头比例** | 头部占比大 | ✅ `oversized head` |
-| **乙烯基质感** | 光滑玩具表面 | ✅ `smooth vinyl toy aesthetic` |
-| **简化造型** | 卡通化简化特征 | ✅ `simplified cartoon features` |
-| **街头艺术感** | 波普/街头元素 | ✅ `street art influence` |
+| **赛璐珞着色** | 经典动画分层上色 | ✅ `cel shading, cel animation style` |
+| **柔和阴影** | 喷枪柔化阴影效果 | ✅ `soft airbrushed shadows` |
+| **复古色调** | 90年代特有的温暖色彩 | ✅ `vintage anime color palette, warm retro colors` |
+| **手绘线条** | 手工绘制的线稿质感 | ✅ `hand-drawn linework` |
+| **大眼睛** | 经典动画的大眼睛风格 | ✅ `large expressive anime eyes` |
+| **高光细节** | 眼睛和头发的经典高光 | ✅ `detailed eye highlights, hair shine` |
 
-### KAWS 风格提示词模板
+### 90s Anime 风格提示词模板
 
 ```
-KAWS style, oversized head, XX crossed eyes, [角色类型], [表情/姿态], [配色], simplified cartoon features, smooth vinyl toy aesthetic, bold graphic design, 3D CGI render, white background, high quality
+90s anime style, retro anime aesthetic, [角色类型], [表情/姿态], [配色], cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation, high quality
 ```
 
-### KAWS 风格示例
+### 90s Anime 风格示例
 
 | 主题 | 完整提示词 |
 |------|-----------|
-| 潮酷小熊 | `KAWS style, oversized head, XX crossed eyes, cute bear character, standing pose with arms crossed, gray and pink colors, simplified cartoon features, smooth vinyl toy aesthetic, 3D CGI render, white background` |
-| 麻将精灵 | `KAWS style, oversized head, XX crossed eyes, mahjong tile character with face, cool confident pose, white and green colors, simplified cartoon features, smooth vinyl toy aesthetic, 3D CGI render, white background` |
-| 街头兔子 | `KAWS style, oversized head, XX crossed eyes, cool rabbit character, hands in pockets pose, pastel blue and white colors, simplified cartoon features, smooth vinyl toy aesthetic, street art influence, 3D CGI render, white background` |
+| 元气少女 | `90s anime style, retro anime aesthetic, cute anime girl character, cheerful smiling pose with peace sign, pink and white colors, cel shading, soft airbrushed shadows, large expressive anime eyes, detailed eye highlights, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
+| 热血少年 | `90s anime style, retro anime aesthetic, cool anime boy character, determined confident pose, blue and black colors, cel shading, soft airbrushed shadows, large expressive anime eyes, spiky hair with shine, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
+| 魔法猫咪 | `90s anime style, retro anime aesthetic, magical cat character with ribbon, playful cute pose, pastel purple and gold colors, cel shading, soft airbrushed shadows, large sparkling anime eyes, hand-drawn linework, vintage anime color palette, nostalgic Japanese animation` |
+| 麻将精灵 | `90s anime style, retro anime aesthetic, anthropomorphic mahjong tile character with cute face, confident standing pose, white and green traditional colors, cel shading, soft airbrushed shadows, large expressive anime eyes, hand-drawn linework, vintage anime color palette` |
+
+### 90s Anime 经典参考
+
+| 参考作品 | 风格特点 |
+|----------|---------|
+| 美少女战士 | 华丽变身、闪亮大眼、梦幻色彩 |
+| 魔卡少女樱 | 温柔柔和、粉嫩配色、可爱造型 |
+| 新世纪福音战士 | 细腻阴影、深沉色调、精致细节 |
+| 灌篮高手 | 热血动感、鲜明轮廓、运动张力 |
+| 乱马1/2 | 活泼搞笑、明快色彩、生动表情 |
 
 ---
 
