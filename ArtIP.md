@@ -2,6 +2,43 @@
 
 ---
 
+## 🎨 当前固定风格设置
+
+> **本次创作统一使用以下艺术家风格**
+
+| 设置项 | 当前值 |
+|--------|--------|
+| **固定艺术家** | KAWS |
+| **风格关键词** | `KAWS style, oversized head, XX crossed eyes, simplified cartoon features, smooth vinyl toy aesthetic, bold graphic design, street art influence` |
+| **配色特点** | 灰/粉/蓝等柔和色，干净简洁 |
+| **适合情感** | 潮流、酷、艺术、时尚 |
+
+### KAWS 风格核心特征
+
+| 特征 | 描述 | 必须包含 |
+|------|------|---------|
+| **XX 眼睛** | 标志性的交叉眼睛 | ✅ `XX crossed eyes` |
+| **大头比例** | 头部占比大 | ✅ `oversized head` |
+| **乙烯基质感** | 光滑玩具表面 | ✅ `smooth vinyl toy aesthetic` |
+| **简化造型** | 卡通化简化特征 | ✅ `simplified cartoon features` |
+| **街头艺术感** | 波普/街头元素 | ✅ `street art influence` |
+
+### KAWS 风格提示词模板
+
+```
+KAWS style, oversized head, XX crossed eyes, [角色类型], [表情/姿态], [配色], simplified cartoon features, smooth vinyl toy aesthetic, bold graphic design, 3D CGI render, white background, high quality
+```
+
+### KAWS 风格示例
+
+| 主题 | 完整提示词 |
+|------|-----------|
+| 潮酷小熊 | `KAWS style, oversized head, XX crossed eyes, cute bear character, standing pose with arms crossed, gray and pink colors, simplified cartoon features, smooth vinyl toy aesthetic, 3D CGI render, white background` |
+| 麻将精灵 | `KAWS style, oversized head, XX crossed eyes, mahjong tile character with face, cool confident pose, white and green colors, simplified cartoon features, smooth vinyl toy aesthetic, 3D CGI render, white background` |
+| 街头兔子 | `KAWS style, oversized head, XX crossed eyes, cool rabbit character, hands in pockets pose, pastel blue and white colors, simplified cartoon features, smooth vinyl toy aesthetic, street art influence, 3D CGI render, white background` |
+
+---
+
 ## 一、创作核心理念
 
 > **轻叙事，重符号，强互动**
