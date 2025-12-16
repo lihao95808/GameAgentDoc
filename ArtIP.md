@@ -30,12 +30,13 @@
 | 角色偏离中心 | `centered composition, character in center` |
 | 只显示半身 | `full body shot, showing full body from head to toe` |
 | 多角度同框 | `single view, front view` |
+| **出现乱码文字** | `no text, no letters, no words, no writing, text-free` |
 
 ### ⚠️ 必须包含的构图关键词
 
 每个提示词都**必须**包含以下内容：
 ```
-single character, solo, centered composition, full body shot
+single character, solo, centered composition, full body shot, no text
 ```
 
 ### 🎬 动作参考（按需选用）
