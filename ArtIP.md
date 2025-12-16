@@ -49,17 +49,17 @@
 | 暴怒大喊 | Chibi, 蜡笔小新 | Q版（表情最夸张） |
 | 惊恐尖叫 | Chibi, Tim Burton | Q版（表情最夸张） |
 | 悠闲躺平 | Loopy, Chiikawa | 萌系圆润, Q版 |
-| 得意坏笑 | Pixar, Pokemon | 标准比例, Q版 |
-| 焦虑困扰 | Pixar, Line Friends | 标准比例 |
-| 贪吃馋嘴 | Pixar, Loopy | Q版, 标准比例 |
+| 得意坏笑 | Pokemon, Molly | 标准比例, Q版 |
+| 焦虑困扰 | Line Friends, Chiikawa | 标准比例 |
+| 贪吃馋嘴 | Loopy, Sanrio | Q版, 标准比例 |
 | 大哭崩溃 | Chiikawa, Loopy | Q版（更惹人怜） |
-| 紧张僵硬 | Line Friends, Pixar | 标准比例 |
+| 紧张僵硬 | Line Friends, Chibi | 标准比例 |
 | 咬牙切齿 | Chibi, 蜡笔小新 | Q版（更显奶凶） |
-| 开心大笑 | Pixar, Sanrio, Pokemon | 标准比例, Q版 |
+| 开心大笑 | Sanrio, Pokemon, Loopy | 标准比例, Q版 |
 | 震惊吃惊 | Chibi, 蜡笔小新 | Q版（表情最夸张） |
 | 傲娇不屑 | Kuromi, Nara | 标准比例, 修长比例 |
 | 害羞脸红 | Chiikawa, Sanrio, Loopy | Q版, 萌系圆润 |
-| 困惑迷茫 | Line Friends, Pixar | 标准比例, Q版 |
+| 困惑迷茫 | Line Friends, Chiikawa | 标准比例, Q版 |
 | 无聊厌世 | Nara, Chiikawa | 标准比例 |
 | 邪恶狂笑 | Tim Burton, Kuromi | 标准比例, 修长比例 |
 
@@ -237,18 +237,6 @@ wearing signature [配饰], iconic [特征] as visual hook, distinctive [元素]
 
 ---
 
-### 风格5：Pixar 皮克斯风（草莓熊、大眼仔）
-
-**特点**：3D 渲染质感、表情丰富、颜色饱满
-
-| 维度 | 关键词 |
-|------|--------|
-| 造型 | `Pixar style, 3D rendered character, expressive big eyes, smooth rounded forms, bright saturated colors, clean surface, clear color separation, soft lighting` |
-| 配色 | 饱满明亮主色，柔和渐变 |
-| 适用 | 通用、品牌、儿童向 |
-
----
-
 ### 风格6：Crayon Shin-chan 蜡笔小新风
 
 **特点**：粗线条、扁平色块、夸张简化
@@ -341,7 +329,6 @@ wearing signature [配饰], iconic [特征] as visual hook, distinctive [元素]
 | Line Friends | `Line Friends style` | 棕/白，大色块 | 通用 |
 | Loopy | `Loopy style` | 粉嫩柔和 | 软萌、治愈 |
 | Pokemon | `Pokemon style` | 高饱和明亮 | 活泼、开心 |
-| Pixar | `Pixar style` | 饱满明亮 | 所有情感 |
 | 蜡笔小新 | `Crayon Shin-chan style` | 扁平鲜艳 | 搞笑、夸张 |
 | Kuromi | `Kuromi style` | 黑+粉/紫 | 傲娇、叛逆 |
 | Chiikawa | `Chiikawa style` | 柔和淡色 | 治愈、害羞 |
@@ -430,7 +417,7 @@ IP 形象**不限于动物**，可以是任何类型：
 
 | 模块 | 说明 | 示例 |
 |------|------|------|
-| 艺术风格 | 从风格库选择 | `Pixar Dreamworks style` |
+| 艺术风格 | 从风格库选择 | `Pokemon style`, `Sanrio style` |
 | 身材比例 | 从比例库选择 | `chibi proportions` 或 `balanced proportions` |
 | 角色类型 | 从角色库选择 | `fox`, `girl`, `robot`, `cake character` |
 | 表情关键词 | 从表情系统获取 | `one raised eyebrow, half-lidded smug eyes, sly confident smirk` |
@@ -441,11 +428,11 @@ IP 形象**不限于动物**，可以是任何类型：
 
 | 类型 | 角色 | 比例 | 完整提示词 |
 |------|------|------|-----------|
-| 动物 | 狐狸 | Q版 | `Pixar Dreamworks style, chibi proportions, cute fox, one raised eyebrow, half-lidded smug eyes, sly confident smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, white background, high quality` |
-| 人类 | 女孩 | 标准 | `Pixar Dreamworks style, balanced proportions, cute girl character, raised worried brows, shy downcast eyes with blush, nervous little smile, soft pink colors, smooth skin texture, realistic fabric texture, 3D CGI render, white background, high quality` |
-| 机器人 | 小机器人 | Q版 | `Mark Ryden style, chibi proportions, cute robot, one brow raised confused, slightly squinting puzzled eyes, slightly open mouth, silver and blue colors, smooth metallic surface, reflective material, 3D CGI render, white background, high quality` |
-| 食物 | 蛋糕精灵 | 萌系圆润 | `Sanrio style, round blob shape, cake character with face, raised eyebrows, wide sparkling eyes, big cheerful smile, pastel pink and cream colors, smooth glossy surface, 3D CGI render, white background, high quality` |
-| 人类 | 帅气少年 | 修长 | `Pixar Dreamworks style, elegant slim proportions, handsome boy character, one raised eyebrow, half-lidded smug eyes, sly confident smirk, cool blue and black colors, smooth skin texture, realistic fabric texture, 3D CGI render, white background, high quality` |
+| 动物 | 狐狸 | Q版 | `Pokemon style, chibi proportions, cute fox, one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, white background, high quality` |
+| 人类 | 女孩 | 标准 | `Loopy style, balanced proportions, cute girl character, raised worried brows, downcast shy eyes with heavy blush, nervous small timid smile, soft pink colors, smooth skin texture, 3D CGI render, white background, high quality` |
+| 机器人 | 小机器人 | Q版 | `Molly Pop Mart style, chibi proportions, cute robot, one brow raised confused, squinting puzzled uncertain eyes, crooked confused slight frown, silver and blue colors, smooth metallic surface, reflective material, 3D CGI render, white background, high quality` |
+| 食物 | 蛋糕精灵 | 萌系圆润 | `Sanrio style, round blob shape, cake character with face, raised joyful brows, sparkling crescent-shaped happy eyes, wide open laughing mouth, pastel pink and cream colors, smooth glossy surface, 3D CGI render, white background, high quality` |
+| 人类 | 帅气少年 | 修长 | `Line Friends style, elegant slim proportions, handsome boy character, one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk, cool blue and black colors, smooth skin texture, 3D CGI render, white background, high quality` |
 
 ---
 
@@ -486,25 +473,26 @@ IP 形象**不限于动物**，可以是任何类型：
 ### 交付示例
 
 ```
-【艺术风格】Pixar Dreamworks
+【艺术风格】Pokemon
 【身材比例】标准比例
-【情感定位】得意/调皮
-【角色类型】人类角色
+【情感定位】得意坏笑
+【角色类型】动物角色
+【视觉抓手】闪电形尾巴
 
 【完整提示词】
-Pixar Dreamworks style, balanced proportions, handsome boy character, one raised eyebrow, half-lidded smug eyes, sly confident smirk, cool blue and white colors, smooth skin texture, realistic fabric texture, 3D CGI render, white background, high quality
+Pokemon style, balanced proportions, cute fox character, one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk, orange and cream colors, with lightning bolt shaped tail, realistic soft fur texture, 3D CGI render, white background, high quality
 ```
 
 ### 更多示例（多样化角色类型）
 
 | 角色类型 | 角色 | 比例 | 情感 | 完整提示词 |
 |----------|------|------|------|-----------|
-| 人类 | 女孩 | 标准 | 害羞 | `Pixar Dreamworks style, balanced proportions, cute girl character, raised worried brows, shy downcast eyes with blush, nervous little smile, soft pink colors, smooth skin texture, realistic fabric texture, 3D CGI render, white background` |
-| 人类 | 帅哥 | 修长 | 得意 | `Pixar Dreamworks style, elegant slim proportions, handsome boy character, one raised eyebrow, half-lidded smug eyes, sly confident smirk, cool blue and black colors, smooth skin texture, 3D CGI render, white background` |
-| 动物 | 狐狸 | Q版 | 调皮 | `Pixar Dreamworks style, chibi proportions, cute fox, one raised eyebrow, half-lidded smug eyes, sly confident smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, white background` |
-| 机器人 | 小机器人 | Q版 | 困惑 | `Mark Ryden style, chibi proportions, cute robot, one brow raised confused, slightly squinting puzzled eyes, slightly open mouth, silver and blue colors, smooth metallic surface, 3D CGI render, white background` |
-| 食物 | 蛋糕 | 萌系 | 开心 | `Sanrio style, round blob shape, cake character with face, raised eyebrows, wide sparkling eyes, big cheerful smile, pastel pink colors, smooth glossy surface, 3D CGI render, white background` |
-| 幻想 | 精灵 | 修长 | 傲娇 | `Studio Ghibli style, elegant slim proportions, fairy character, slightly furrowed brows, side-eye glance, small dismissive pout, soft green and gold colors, 3D CGI render, white background` |
+| 人类 | 女孩 | 标准 | 害羞 | `Loopy style, balanced proportions, cute girl character, raised worried brows, downcast shy eyes with heavy blush, nervous small timid smile, soft pink colors, smooth skin texture, 3D CGI render, white background` |
+| 人类 | 帅哥 | 修长 | 得意 | `Line Friends style, elegant slim proportions, handsome boy character, one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk, cool blue and black colors, smooth skin texture, 3D CGI render, white background` |
+| 动物 | 狐狸 | Q版 | 调皮 | `Pokemon style, chibi proportions, cute fox, one raised mischievous brow, squinting sly cunning eyes, crooked smug smirk, orange and cream colors, realistic soft fur texture, 3D CGI render, white background` |
+| 机器人 | 小机器人 | Q版 | 困惑 | `Molly Pop Mart style, chibi proportions, cute robot, one brow raised confused, squinting puzzled uncertain eyes, crooked confused slight frown, silver and blue colors, smooth metallic surface, 3D CGI render, white background` |
+| 食物 | 蛋糕 | 萌系 | 开心 | `Sanrio style, round blob shape, cake character with face, raised joyful brows, sparkling crescent-shaped happy eyes, wide open laughing mouth, pastel pink colors, smooth glossy surface, 3D CGI render, white background` |
+| 暗黑 | 小恶魔 | 标准 | 傲娇 | `Kuromi style, balanced proportions, cute devil character, one slightly raised brow, side-eye dismissive glance, small pouty pursed lips, black and pink colors, 3D CGI render, white background` |
 
 ---
 
