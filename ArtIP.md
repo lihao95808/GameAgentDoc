@@ -297,27 +297,120 @@ wearing signature [配饰], iconic [特征] as visual hook, distinctive [元素]
 
 ---
 
-### 风格11：Yoshitomo Nara 奈良美智风
+## 艺术家风格专区（大头风格）
 
-**特点**：叛逆眼神、嘟嘴、朋克可爱
-
-| 维度 | 关键词 |
-|------|--------|
-| 造型 | `Yoshitomo Nara style, large flat head, big defiant eyes, minimal features, punk-cute aesthetic, muted earth tones, simple clean design` |
-| 配色 | 柔和大地色，偶尔亮色点缀 |
-| 适用 | 傲娇、厌世、文艺向 |
+> 以下艺术家均以**大头角色**著称，适合 IP 形象设计
 
 ---
 
-### 风格12：Tim Burton 哥特风
+### 艺术家1：Yoshitomo Nara 奈良美智
 
-**特点**：大眼睛、苍白、暗黑童话
+**特点**：大头叛逆小孩、嘟嘴斜眼、朋克可爱
 
 | 维度 | 关键词 |
 |------|--------|
-| 造型 | `Tim Burton style, huge round eyes, pale skin, dark whimsical aesthetic, simple gothic design, black and white with color accents, quirky proportions` |
+| 造型 | `Yoshitomo Nara style, oversized flat head, small body, big defiant eyes, pouty mouth, punk-cute aesthetic, simple minimal features` |
+| 配色 | 柔和大地色，偶尔亮色点缀 |
+| 适用 | 傲娇、厌世、叛逆、文艺向 |
+
+---
+
+### 艺术家2：KAWS
+
+**特点**：XX眼睛、大头公仔、潮流艺术
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `KAWS style, oversized head, XX crossed eyes, simplified cartoon features, smooth vinyl toy aesthetic, bold graphic design, street art influence` |
+| 配色 | 灰/粉/蓝等柔和色，干净简洁 |
+| 适用 | 潮流、收藏、艺术向、时尚 |
+
+---
+
+### 艺术家3：Javier Calleja 哈维尔·卡列哈
+
+**特点**：超大头超大眼、天真小孩、水汪汪眼睛
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Javier Calleja style, extremely oversized head, huge sparkling watery eyes, tiny body, innocent child-like character, soft pastel colors, minimal simple features` |
+| 配色 | 柔和粉彩色，干净清新 |
+| 适用 | 可爱、天真、治愈、少女向 |
+
+---
+
+### 艺术家4：Mark Ryden 马克·莱登
+
+**特点**：大头瓷娃娃、空洞呆滞、复古童话
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Mark Ryden style, oversized doll-like head, big glossy empty eyes, porcelain skin, surreal proportions, vintage storybook aesthetic, eerily cute` |
+| 配色 | 复古柔和色，带神秘感 |
+| 适用 | 呆萌、梦幻、复古、诡异可爱 |
+
+---
+
+### 艺术家5：Hikari Shimoda 下田光
+
+**特点**：大头悲伤小孩、眼泪、创可贴元素
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Hikari Shimoda style, oversized head, big teary sad eyes, bandages and bruises, melancholic child character, soft pale colors, emotional vulnerable aesthetic` |
+| 配色 | 淡粉/淡紫/肤色，带忧郁感 |
+| 适用 | 伤心、脆弱、病娇、情感向 |
+
+---
+
+### 艺术家6：Gary Baseman 加里·贝斯曼
+
+**特点**：大头诡异萌、不安微笑、成人向卡通
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Gary Baseman style, oversized head, creepy cute character, unsettling adorable smile, quirky surreal design, bold colors, dark humor aesthetic` |
+| 配色 | 鲜艳大胆色，对比强烈 |
+| 适用 | 诡异、暗黑幽默、艺术收藏 |
+
+---
+
+### 艺术家7：Tim Burton 蒂姆·伯顿
+
+**特点**：大眼睛、苍白、暗黑童话、螺旋瞳孔
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Tim Burton style, oversized head, huge round spiral eyes, pale gothic skin, dark whimsical aesthetic, skinny elongated limbs, quirky spooky design` |
 | 配色 | 黑白为主，点缀亮色 |
-| 适用 | 诡异、万圣节、暗黑可爱 |
+| 适用 | 诡异、万圣节、暗黑可爱、哥特 |
+
+---
+
+### 艺术家8：Takashi Murakami 村上隆
+
+**特点**：超扁平大头、彩色花朵、波普艺术
+
+| 维度 | 关键词 |
+|------|--------|
+| 造型 | `Takashi Murakami superflat style, oversized flat head, colorful pop art character, bold graphic eyes, vibrant rainbow colors, flat 2D aesthetic, iconic flower motifs` |
+| 配色 | 高饱和彩虹色，鲜艳夺目 |
+| 适用 | 开心、潮流、艺术、时尚品牌 |
+
+---
+
+### 艺术家风格速查表
+
+| 艺术家 | 关键词前缀 | 头部特点 | 最适合情感 |
+|--------|-----------|---------|-----------|
+| Yoshitomo Nara | `Yoshitomo Nara style` | 大扁头、斜眼 | 傲娇、厌世 |
+| KAWS | `KAWS style` | 大头、XX眼 | 潮流、酷 |
+| Javier Calleja | `Javier Calleja style` | 超大头、水汪汪大眼 | 可爱、天真 |
+| Mark Ryden | `Mark Ryden style` | 大头瓷娃娃 | 呆萌、诡异 |
+| Hikari Shimoda | `Hikari Shimoda style` | 大头、泪眼 | 伤心、脆弱 |
+| Gary Baseman | `Gary Baseman style` | 大头诡异萌 | 邪恶、暗黑 |
+| Tim Burton | `Tim Burton style` | 大头螺旋眼 | 诡异、哥特 |
+| Takashi Murakami | `Takashi Murakami superflat style` | 扁平大头 | 开心、潮流 |
 
 ---
 
